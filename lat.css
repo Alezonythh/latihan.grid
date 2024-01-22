@@ -1,0 +1,632 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Work Sans', sans-serif;
+}
+.container{
+    width: 100%;
+    height: 600px;
+    background-color: blue;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+.hero{
+    width: 90%;
+    margin: auto;
+    height: 500px;
+}
+.container .hero .navigasi{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 10px;
+    /* position: fixed; */
+}
+
+.menu ul li{
+    display: inline-block;
+    margin: 10px;
+    color: beige;
+    font-weight: 300;
+
+}
+.menu ul li:hover{
+    color: #fff;
+    transition: bacground-color 0.3s ease,color 0,3s ease;
+}
+.logo{
+    font-size: larger;
+    margin-top: 10px;
+    font-weight: 700;
+    font-size: 25px;
+}
+.icon{
+    margin: 10px;
+    font-weight: 700;
+    font-size: 20px;
+}
+.hero .textbox{
+    font-weight: 700;
+    font-size: 50px;
+    /* padding-top: 200px;
+    margin-left: 80px; */
+    display: flex;
+    align-items: center;
+    /* background-color: aliceblue; */
+    padding-top: 40px;
+    justify-content: space-around;
+    /* margin-left: 20px;
+    margin-right: 20px; */
+    width: 88%;
+    margin: auto;
+
+
+}
+
+img {
+    border-radius: 20px;
+}
+.hero .textbox .text{
+    font-weight: 300;
+    font-size: 20px;
+    /* margin-left: auto; */
+}
+
+.hero .Button{
+    display: flex;
+    margin-top: 20px ;
+
+    
+}
+.hero .Button .butext{
+    margin-left: 50px;
+    margin-top: 15px;
+}
+
+.hero .Button .butext1{
+    background-color: #fff;
+    color: black;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.hero .Button .butext1:hover{
+    background-color: gray;
+    transition: 0,5s;
+
+}
+
+.container .Services{
+    display: flex;
+    /* background-color: bisque; */
+    margin-top: 7%;
+    padding-left: 60px;
+    justify-content: space-around;
+    padding-right: 60px;
+    padding-top: 100px;
+    color: black;
+    line-height: 140%;
+
+}
+.container .Services .textt .duy{
+    color: gray;
+}
+
+.container .Services .textt .dey{
+    display: flex;
+}
+
+.icon1 {
+    font-size: large;
+    background-color: gainsboro;
+
+}
+
+.container .Services .textt .dey .deyyy{
+    font-size: large;
+    font-weight: 600;
+    padding-left: 10px;
+}
+.container .Services .textt .textttt{
+    padding-left: 30px;
+    color: gray;
+
+}
+.container .flex {
+    background-color: blue;
+    align-items: center;
+    justify-content: space-evenly;
+    display: flex;
+    height: 250px;
+    margin-top: 80px;
+    line-height: 140%;
+}
+.container .flex .icon11{
+    font-size: 50px;
+    margin-right: -50px;
+}
+.imge{order: 2;}
+
+.container .Servicess{
+    display: flex;
+    /* background-color: bisque; */
+    margin-top: 7%;
+    padding-left: 60px;
+    justify-content: space-around;
+    padding-right: 60px;
+    padding-top: 60px;
+    padding-bottom: 40px;
+    color: black;
+    margin-left: 50px;
+    margin-bottom: 100px;
+    line-height: 150%;
+
+}
+.container .Servicess .ext{
+    padding-top: 20px;
+}
+
+.container .Servicess .ext .eyy{
+    display: flex;
+}
+
+.icon111 {
+    font-size: large;
+    background-color: gainsboro;
+
+}
+
+.container .Servicess .ext .eyy .eyyy{
+    font-size: large;
+    font-weight: 600;
+    padding-left: 10px;
+}
+.container .Servicess .ext .extttt{
+    padding-left: 30px;
+    color: gray;
+}
+.container .brr{
+    text-align: center;
+    color: black;
+    background-color: gainsboro;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    
+}
+.container .our{
+    display: grid;
+    grid-template-areas: "area1 area2 area3"
+                         "area4 area5 area6";
+    grid-template-rows: 1fr 1fr;
+    /* background-color: red; */
+    width: 90%;
+    text-align: center;
+    color: black;
+    justify-content: space-around;
+    margin: auto;
+    padding: auto;
+    gap: -20px;
+    line-height: 130%;
+}
+
+.container .our .colom1{
+    grid-column: area1;
+    background-color: whitesmoke;
+    height: 350PX;
+    margin: 20px;
+    border-radius: 10px;
+    padding-top: 50px;
+    width: 350px;
+
+}
+.container .our .colom2{
+    grid-column: area2;
+    background-color: whitesmoke;
+    height: 350PX;
+    margin: 20px;
+    border-radius: 10px;
+    padding-top: 50px;
+    width: 350px;
+
+}.container .our .colom3{
+    grid-column: area3;
+    background-color: whitesmoke;
+    height: 350PX;
+    margin: 20px;
+    border-radius: 10px;
+    padding-top: 50px;
+    width: 350px;
+}
+
+.container .our .colom4{
+    grid-column: area4;
+    background-color: whitesmoke;
+    height: 350PX;
+    margin: 20px;
+    border-radius: 10px;
+    padding-top: 50px;
+    width: 350px;
+}
+.container  .our .colom5{
+    grid-column: area5;
+    background-color: whitesmoke;
+    height: 350PX;
+    margin: 20px;
+    border-radius: 10px;
+    padding-top: 50px;
+    width: 350px;
+
+}
+.container .our .colom6{
+    grid-column: area6;
+    background-color: whitesmoke;
+    height: 350PX;
+    margin: 20px;
+    border-radius: 10px;
+    padding-top: 50px;
+    width: 350px;
+}
+
+.container .our .colom1 .but1 .butoon1{
+    background-color: whitesmoke;
+    color: blue;
+    border-color: blue;
+    border-radius: 5px;
+    border-style: groove;
+    font-size: 15px;
+    height: 45px;
+    width: 120px;
+    text-align: center;
+    justify-content: center;
+    margin-left: 114px;
+    padding-top: 10px;
+}
+.container .our .colom2 .but2 .butoon2{
+    background-color: whitesmoke;
+    color: blue;
+    border-color: blue;
+    border-radius: 5px;
+    border-style: groove;
+    font-size: 15px;
+    height: 45px;
+    width: 120px;
+    text-align: center;
+    justify-content: center;
+    margin-left: 114px;
+    padding-top: 10px;
+}
+.container .our .colom3 .but3 .butoon3{
+    background-color: whitesmoke;
+    color: blue;
+    border-color: blue;
+    border-radius: 5px;
+    border-style: groove;
+    font-size: 15px;
+    height: 45px;
+    width: 120px;
+    text-align: center;
+    justify-content: center;
+    margin-left: 114px;
+    padding-top: 10px;
+}
+.container .our .colom4 .but4 .butoon4{
+    background-color: whitesmoke;
+    color: blue;
+    border-color: blue;
+    border-radius: 5px;
+    border-style: groove;
+    font-size: 15px;
+    height: 45px;
+    width: 120px;
+    text-align: center;
+    justify-content: center;
+    margin-left: 114px;
+    padding-top: 10px;
+}
+.container .our .colom5 .but5 .butoon5{
+    background-color: whitesmoke;
+    color: blue;
+    border-color: blue;
+    border-radius: 5px;
+    border-style: groove;
+    font-size: 15px;
+    height: 45px;
+    width: 120px;
+    text-align: center;
+    justify-content: center;
+    margin-left: 114px;
+    padding-top: 10px;
+}
+.container .our .colom6 .but6 .butoon6{
+    background-color: whitesmoke;
+    color: blue;
+    border-color: blue;
+    border-radius: 5px;
+    border-style: groove;
+    font-size: 15px;
+    height: 45px;
+    width: 120px;
+    text-align: center;
+    justify-content: center;
+    margin-left: 114px;
+    padding-top: 10px;
+}
+
+.container .our .colom1 .but1 .butoon1:hover{
+    transition: 0,5s;
+    background-color: rgba(0, 0, 255, 0.459);
+}
+.container .our .colom2 .but2 .butoon2:hover{
+    transition: 0,5s;
+    background-color: rgba(0, 0, 255, 0.459);
+}
+.container .our .colom3 .but3 .butoon3:hover{
+    transition: 0,5s;
+    background-color: rgba(0, 0, 255, 0.459);
+}
+.container .our .colom4 .but4 .butoon4:hover{
+    transition: 0,5s;
+    background-color: rgba(0, 0, 255, 0.459);
+}
+.container .our .colom5 .but5 .butoon5:hover{
+    transition: 0,5s;
+    background-color: rgba(0, 0, 255, 0.459);
+}
+.container .our .colom6 .but6 .butoon6:hover{
+    transition: 0,5s;
+    background-color: rgba(0, 0, 255, 0.459);
+}
+.gpg{
+    width: 100%;
+    height: 200px;
+    background-image: url(img-4.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: 0px 0;
+    background-attachment: fixed;
+    margin: auto;
+    
+}
+
+.gpgc{
+    width: 100%;
+    height: 200px;
+    background-color: rgba(18, 78, 189, 0.904);
+    background-repeat: no-repeat;
+    background-position: 0px 0;
+    background-attachment: fixed;
+    margin: auto;
+    display: grid;
+    grid-template-rows: 1fr ;
+    grid-template-areas: "are1 are2";
+    justify-content: space-around;
+    align-items: center;
+}
+.gpgc .t{
+    /* padding-top: 5%; */
+    grid-column: are1;
+    margin-left: -20%;
+}
+
+.gpgc .con{
+    /* padding-top: 5%; */
+    grid-column: are2;
+    background-color: #fff;
+    color: blue;
+    height: 45px;
+    width: 120px;
+    text-align: center;
+    padding-top: 14px;
+    border-radius: 5px;
+    font-size: medium;
+}
+
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1170px;
+    margin: auto;
+}
+
+ul {
+    list-style: none;
+}
+
+.footer {
+    background-color: blue;
+    padding: 70px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-col1 {
+    width: 25%;
+    padding: 0 15px;
+}
+.footer-col2 {
+    width: 25%;
+    padding: 0 15px;
+}
+.footer-col3 {
+    width: 25%;
+    padding: 0 15px;
+}
+.footer-col4 {
+    width: 25%;
+    padding: 0 15px;
+}
+.footer-col5 {
+    width: 25%;
+    padding: 0 15px;
+}
+
+.footer-col1 h4 {
+    font-size: 18px;
+    color: #ffffff;
+    text-transform: capitalize;
+    margin-bottom: 35px;
+    font-weight: 500;
+    position: relative;
+}
+.footer-col2 h4 {
+    font-size: 18px;
+    color: #ffffff;
+    text-transform: capitalize;
+    margin-bottom: 35px;
+    font-weight: 500;
+    position: relative;
+    margin-left: 100px;
+}
+.footer-col3 h4 {
+    font-size: 18px;
+    color: #ffffff;
+    text-transform: capitalize;
+    margin-bottom: 57px;
+    font-weight: 500;
+    position: relative;
+}
+.footer-col4 h4 {
+    font-size: 18px;
+    color: #ffffff;
+    text-transform: capitalize;
+    margin-bottom: 35px;
+    font-weight: 500;
+    position: relative;
+}
+.footer-col5 h4 {
+    font-size: 18px;
+    color: #ffffff;
+    text-transform: capitalize;
+    margin-bottom: 35px;
+    font-weight: 500;
+    position: relative;
+}
+.footer-col1 ul li:not(:last-child) {
+    margin-bottom: 10px;
+}
+.footer-col2 ul li:not(:last-child) {
+    margin-bottom: 10px;
+}
+.footer-col3 ul li:not(:last-child) {
+    margin-bottom: 10px;
+}
+.footer-col4 ul li:not(:last-child) {
+    margin-bottom: 10px;
+}
+.footer-col5 ul li:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+.footer-col1 ul li a {
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 300;
+    color: #ffffff;
+    display: block;
+    transition: all 0.3s ease;
+    
+}
+.footer-col2 ul li a {
+    font-size: 16px;
+    text-transform: capitalize;
+    text-decoration: none;
+    font-weight: 300;
+    color: gainsboro;
+    display: block;
+    transition: all 0.3s ease;
+    margin-left: 105px;
+    
+}
+.footer-col3 ul li a {
+    font-size: 16px;
+    text-transform: capitalize;
+    text-decoration: none;
+    font-weight: 300;
+    color: gainsboro;
+    display: block;
+    transition: all 0.3s ease;
+    
+}
+.footer-col4 ul li a {
+    font-size: 16px;
+    text-transform: capitalize;
+    text-decoration: none;
+    font-weight: 300;
+    color: gainsboro;
+    display: block;
+    transition: all 0.3s ease;
+    margin-left: 5px;
+    
+}
+.footer-col5 ul li a {
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 300;
+    color: #ffffff;
+    display: block;
+    transition: all 0.3s ease;
+    
+}
+
+.footer-col1 ul li a:hover {
+    color: #020202;
+    padding-left: 8px;
+}
+.footer-col2 ul li a:hover {
+    color: #020202;
+    padding-left: 8px;
+}
+.footer-col3 ul li a:hover {
+    color: #020202;
+    padding-left: 8px;
+}
+.footer-col4 ul li a:hover {
+    color: #020202;
+    padding-left: 8px;
+}
+.footer-col5 ul li a:hover {
+    color: #020202;
+    padding-left: 8px;
+}
+
+.footer-col5 .social-links a {
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: rgba(255, 255, 255, 0.2);
+    margin: 0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #ffffff;
+    transition: all 0.5s ease;
+}
+
+.footer-col5 .social-links a:hover {
+    color: #24262b;
+    background-color: #ffffff;
+}
+.footer .row .footer-col5 .social-links{
+    display: flex;
+    width: 300px;
+    margin-left: -50%;
+}
+
+.container .dddd{
+    text-align: center;
+    margin: auto;
+    padding: auto;
+    /* display: grid;
+    grid-template-areas: "ar1 ar2";
+    grid-area: ar1; */
+    
+
+}
